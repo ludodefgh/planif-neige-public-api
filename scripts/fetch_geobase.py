@@ -7,7 +7,7 @@ import json
 import requests
 
 # Configuration
-GEOBASE_URL = "https://donnees.montreal.ca/dataset/2f1717e9-0141-48ef-8943-ea348373667f/resource/2f1717e9-0141-48ef-8943-ea348373667f/download/gbdouble.json"
+GEOBASE_URL = "https://donnees.montreal.ca/dataset/88493b16-220f-4709-b57b-1ea57c5ba405/resource/16f7fa0a-9ce6-4b29-a7fc-00842c593927/download/gbdouble.json"
 OUTPUT_FILE = "data/geobase-map.json"
 
 
