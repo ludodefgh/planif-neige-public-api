@@ -127,7 +127,7 @@ Les contributions sont bienvenues ! N'hésitez pas à ouvrir une issue ou une pu
 
 ## 📧 Contact
 
-Ludovic Dussault - [@ludodefgh](https://github.com/ludodefgh)
+Ludodefgh - [@ludodefgh](https://github.com/ludodefgh)
 
 ---
 
