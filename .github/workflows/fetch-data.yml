@@ -1,0 +1,83 @@
+name: Fetch Planif-Neige Data
+
+on:
+  schedule:
+    # Toutes les 10 minutes (respecte le rate limit de 5 min de l'API)
+    - cron: '*/10 * * * *'
+
+  # Permettre l'exécution manuelle
+  workflow_dispatch:
+
+jobs:
+  fetch-planif-neige:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+
+      - name: Fetch Planif-Neige data
+        env:
+          PLANIF_NEIGE_TOKEN: ${{ secrets.PLANIF_NEIGE_TOKEN }}
+        run: |
+          python scripts/fetch_planif_neige.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add data/planif-neige.json data/planif-neige-metadata.json
+
+          # Commit seulement si des changements
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update Planif-Neige data - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+            git push
+          fi
+
+  fetch-geobase:
+    runs-on: ubuntu-latest
+    # Exécuter seulement le dimanche à 3h (hebdomadaire)
+    if: github.event.schedule == '0 3 * * 0' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+
+      - name: Fetch Geobase data
+        run: |
+          python scripts/fetch_geobase.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add data/geobase-map.json
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update Geobase mapping - $(date -u +"%Y-%m-%d")"
+            git push
+          fi
