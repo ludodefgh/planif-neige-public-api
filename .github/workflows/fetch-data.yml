@@ -2,8 +2,8 @@ name: Fetch Planif-Neige Data
 
 on:
   schedule:
-    # Toutes les 20 minutes (respecte le rate limit de 5 min de l'API)
-    - cron: '*/20 * * * *'
+    # Toutes les 10 minutes (respecte le rate limit de 5 min de l'API)
+    - cron: '*/10 * * * *'
 
   # Permettre l'exécution manuelle
   workflow_dispatch:
