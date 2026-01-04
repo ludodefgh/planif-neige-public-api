@@ -211093,12 +211093,12 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 16004911,
-      "etat_deneig": 2,
+      "etat_deneig": 5,
       "date_deb_planif": "2026-01-04T07:00:00",
       "date_fin_planif": "2026-01-04T19:00:00",
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-01-03T12:52:41"
+      "date_maj": "2026-01-04T13:46:04"
     },
     {
       "mun_id": 66023,
@@ -284283,62 +284283,62 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 10504041,
-      "etat_deneig": 2,
-      "date_deb_planif": "2026-01-04T07:00:00",
-      "date_fin_planif": "2026-01-04T19:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-01-02T17:53:14"
+      "date_maj": "2026-01-04T13:54:41"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 10503991,
-      "etat_deneig": 2,
-      "date_deb_planif": "2026-01-04T07:00:00",
-      "date_fin_planif": "2026-01-04T19:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-01-02T17:53:14"
+      "date_maj": "2026-01-04T13:53:47"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 10504001,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-01-04T07:00:00",
-      "date_fin_planif": "2026-01-04T19:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-01-04T13:00:07"
+      "date_maj": "2026-01-04T13:53:47"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 10504011,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-01-04T07:00:00",
-      "date_fin_planif": "2026-01-04T19:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-01-04T13:00:06"
+      "date_maj": "2026-01-04T13:53:47"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 10504021,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-01-04T07:00:00",
-      "date_fin_planif": "2026-01-04T19:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-01-04T12:56:00"
+      "date_maj": "2026-01-04T13:53:47"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 10504031,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-01-04T07:00:00",
-      "date_fin_planif": "2026-01-04T19:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-01-04T12:55:56"
+      "date_maj": "2026-01-04T13:53:47"
     },
     {
       "mun_id": 66023,
@@ -290438,7 +290438,7 @@
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-04T13:29:25"
+      "date_maj": "2026-01-04T13:37:47"
     },
     {
       "mun_id": 66023,
@@ -290448,7 +290448,7 @@
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-04T13:29:25"
+      "date_maj": "2026-01-04T13:37:47"
     },
     {
       "mun_id": 66023,
@@ -290458,7 +290458,7 @@
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-04T13:29:20"
+      "date_maj": "2026-01-04T13:50:21"
     },
     {
       "mun_id": 66023,
@@ -290468,47 +290468,47 @@
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-04T13:29:20"
+      "date_maj": "2026-01-04T13:50:21"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 40050151,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-03T04:51:44"
+      "date_maj": "2026-01-04T13:50:11"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 40050152,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-03T04:51:44"
+      "date_maj": "2026-01-04T13:50:11"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 40050161,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-03T04:51:44"
+      "date_maj": "2026-01-04T13:50:15"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 40050162,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-03T04:51:44"
+      "date_maj": "2026-01-04T13:50:15"
     },
     {
       "mun_id": 66023,
@@ -409513,22 +409513,22 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 13202091,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-03T11:09:26"
+      "date_maj": "2026-01-04T13:54:28"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13202101,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-03T11:09:26"
+      "date_maj": "2026-01-04T13:50:20"
     },
     {
       "mun_id": 66023,
@@ -410248,17 +410248,17 @@
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-04T13:29:25"
+      "date_maj": "2026-01-04T13:33:35"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13102122,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-03T11:13:23"
+      "date_maj": "2026-01-04T13:37:41"
     },
     {
       "mun_id": 66023,
@@ -410273,22 +410273,22 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 13100281,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-03T11:13:23"
+      "date_maj": "2026-01-04T13:37:47"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13100291,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-03T11:13:23"
+      "date_maj": "2026-01-04T13:41:54"
     },
     {
       "mun_id": 66023,
@@ -410323,32 +410323,32 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 13103871,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-03T11:13:23"
+      "date_maj": "2026-01-04T13:46:06"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13103891,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-03T11:13:23"
+      "date_maj": "2026-01-04T13:50:20"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13103901,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-04T07:00:00",
       "date_fin_replanif": "2026-01-04T19:00:00",
-      "date_maj": "2026-01-03T11:13:23"
+      "date_maj": "2026-01-04T13:54:25"
     },
     {
       "mun_id": 66023,
@@ -425711,5 +425711,5 @@
       "date_maj": "2025-12-30T16:24:48"
     }
   ],
-  "generated_at": "2026-01-04T18:32:59.847639"
+  "generated_at": "2026-01-04T18:55:08.009138"
 }
