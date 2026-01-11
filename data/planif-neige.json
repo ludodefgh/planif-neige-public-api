@@ -441993,12 +441993,12 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 11804382,
-      "etat_deneig": 3,
+      "etat_deneig": 5,
       "date_deb_planif": null,
       "date_fin_planif": null,
       "date_deb_replanif": "2026-01-11T07:00:00",
       "date_fin_replanif": "2026-01-11T19:00:00",
-      "date_maj": "2026-01-11T12:58:27"
+      "date_maj": "2026-01-11T14:12:52"
     },
     {
       "mun_id": 66023,
@@ -552211,5 +552211,5 @@
       "date_maj": "2026-01-08T15:40:48"
     }
   ],
-  "generated_at": "2026-01-11T18:55:07.025683"
+  "generated_at": "2026-01-11T19:18:13.303487"
 }
