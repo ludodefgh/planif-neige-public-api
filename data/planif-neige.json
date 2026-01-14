@@ -423723,22 +423723,22 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 11901402,
-      "etat_deneig": 2,
+      "etat_deneig": 5,
       "date_deb_planif": "2026-01-14T07:00:00",
       "date_fin_planif": "2026-01-14T19:00:00",
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-01-13T08:50:12"
+      "date_maj": "2026-01-14T14:21:39"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 11901412,
-      "etat_deneig": 2,
+      "etat_deneig": 5,
       "date_deb_planif": "2026-01-14T07:00:00",
       "date_fin_planif": "2026-01-14T19:00:00",
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-01-13T08:50:12"
+      "date_maj": "2026-01-14T14:21:38"
     },
     {
       "mun_id": 66023,
@@ -544241,5 +544241,5 @@
       "date_maj": "2026-01-08T15:40:48"
     }
   ],
-  "generated_at": "2026-01-14T19:00:20.513060"
+  "generated_at": "2026-01-14T19:34:02.207280"
 }
