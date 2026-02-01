@@ -385863,12 +385863,12 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 13101812,
-      "etat_deneig": 2,
+      "etat_deneig": 5,
       "date_deb_planif": "2026-02-01T07:00:00",
       "date_fin_planif": "2026-02-01T19:00:00",
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-01-30T11:22:06"
+      "date_maj": "2026-02-01T15:51:35"
     },
     {
       "mun_id": 66023,
@@ -385878,7 +385878,7 @@
       "date_fin_planif": "2026-02-01T19:00:00",
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-02-01T15:20:21"
+      "date_maj": "2026-02-01T15:42:41"
     },
     {
       "mun_id": 66023,
@@ -554151,5 +554151,5 @@
       "date_maj": "2026-01-28T09:14:00"
     }
   ],
-  "generated_at": "2026-02-01T20:30:42.604637"
+  "generated_at": "2026-02-01T20:55:48.574070"
 }
