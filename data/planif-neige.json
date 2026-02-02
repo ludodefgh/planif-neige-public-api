@@ -386223,42 +386223,42 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 13101631,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-02-01T19:00:00",
-      "date_fin_planif": "2026-02-02T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-02-01T22:41:03"
+      "date_maj": "2026-02-01T23:45:35"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13101641,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-02-01T19:00:00",
-      "date_fin_planif": "2026-02-02T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-02-01T22:41:04"
+      "date_maj": "2026-02-01T23:45:35"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13101651,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-02-01T19:00:00",
-      "date_fin_planif": "2026-02-02T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-02-01T22:45:28"
+      "date_maj": "2026-02-01T23:45:35"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13101661,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-02-01T19:00:00",
-      "date_fin_planif": "2026-02-02T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-02-01T22:45:29"
+      "date_maj": "2026-02-01T23:45:35"
     },
     {
       "mun_id": 66023,
@@ -386493,52 +386493,52 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 13201331,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-02-01T19:00:00",
-      "date_fin_planif": "2026-02-02T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-02-01T22:58:44"
+      "date_maj": "2026-02-02T00:14:13"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13201341,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-02-01T19:00:00",
-      "date_fin_planif": "2026-02-02T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-02-01T23:03:19"
+      "date_maj": "2026-02-02T00:14:13"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13201351,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-02-01T19:00:00",
-      "date_fin_planif": "2026-02-02T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-02-01T23:07:56"
+      "date_maj": "2026-02-02T00:14:13"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13201361,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-02-01T19:00:00",
-      "date_fin_planif": "2026-02-02T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-02-01T23:12:23"
+      "date_maj": "2026-02-02T00:14:13"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 40027901,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-02-01T19:00:00",
-      "date_fin_planif": "2026-02-02T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-02-01T23:03:19"
+      "date_maj": "2026-02-02T00:14:13"
     },
     {
       "mun_id": 66023,
@@ -554151,5 +554151,5 @@
       "date_maj": "2026-01-28T09:14:00"
     }
   ],
-  "generated_at": "2026-02-02T04:37:24.241177"
+  "generated_at": "2026-02-02T05:50:47.939939"
 }
