@@ -486153,32 +486153,32 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 13201732,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-03-02T19:00:00",
-      "date_fin_planif": "2026-03-03T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-03-03T05:37:56"
+      "date_maj": "2026-03-03T06:38:51"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13201742,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-03-02T19:00:00",
-      "date_fin_planif": "2026-03-03T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-03-03T05:37:56"
+      "date_maj": "2026-03-03T06:38:51"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 13201752,
-      "etat_deneig": 2,
-      "date_deb_planif": "2026-03-02T19:00:00",
-      "date_fin_planif": "2026-03-03T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-03-01T07:59:52"
+      "date_maj": "2026-03-03T06:38:51"
     },
     {
       "mun_id": 66023,
@@ -486283,22 +486283,22 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 13203692,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-03-02T19:00:00",
-      "date_fin_planif": "2026-03-03T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-03-03T05:37:55"
+      "date_maj": "2026-03-03T06:38:51"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 16005112,
-      "etat_deneig": 5,
-      "date_deb_planif": "2026-03-02T19:00:00",
-      "date_fin_planif": "2026-03-03T07:00:00",
+      "etat_deneig": 1,
+      "date_deb_planif": null,
+      "date_fin_planif": null,
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-03-03T05:37:57"
+      "date_maj": "2026-03-03T06:38:51"
     },
     {
       "mun_id": 66023,
@@ -552571,5 +552571,5 @@
       "date_maj": "2026-02-27T08:54:44"
     }
   ],
-  "generated_at": "2026-03-03T11:35:21.407840"
+  "generated_at": "2026-03-03T11:58:59.971933"
 }
