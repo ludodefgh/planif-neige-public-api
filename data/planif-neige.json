@@ -120163,22 +120163,22 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 11900692,
-      "etat_deneig": 2,
+      "etat_deneig": 5,
       "date_deb_planif": "2026-03-04T07:00:00",
       "date_fin_planif": "2026-03-04T19:00:00",
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-03-03T06:59:40"
+      "date_maj": "2026-03-04T08:45:44"
     },
     {
       "mun_id": 66023,
       "cote_rue_id": 11900702,
-      "etat_deneig": 2,
+      "etat_deneig": 5,
       "date_deb_planif": "2026-03-04T07:00:00",
       "date_fin_planif": "2026-03-04T19:00:00",
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-03-03T06:59:40"
+      "date_maj": "2026-03-04T08:45:44"
     },
     {
       "mun_id": 66023,
@@ -120193,12 +120193,12 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 11900722,
-      "etat_deneig": 2,
+      "etat_deneig": 5,
       "date_deb_planif": "2026-03-04T07:00:00",
       "date_fin_planif": "2026-03-04T19:00:00",
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-03-03T06:59:40"
+      "date_maj": "2026-03-04T08:10:26"
     },
     {
       "mun_id": 66023,
@@ -120238,7 +120238,7 @@
       "date_fin_planif": "2026-03-04T19:00:00",
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-03-04T08:01:33"
+      "date_maj": "2026-03-04T08:05:57"
     },
     {
       "mun_id": 66023,
@@ -489233,12 +489233,12 @@
     {
       "mun_id": 66023,
       "cote_rue_id": 13100311,
-      "etat_deneig": 2,
+      "etat_deneig": 5,
       "date_deb_planif": "2026-03-04T07:00:00",
       "date_fin_planif": "2026-03-04T19:00:00",
       "date_deb_replanif": null,
       "date_fin_replanif": null,
-      "date_maj": "2026-03-03T10:31:51"
+      "date_maj": "2026-03-04T09:03:14"
     },
     {
       "mun_id": 66023,
@@ -552571,5 +552571,5 @@
       "date_maj": "2026-03-03T10:19:15"
     }
   ],
-  "generated_at": "2026-03-04T13:03:18.174113"
+  "generated_at": "2026-03-04T14:05:31.552333"
 }
