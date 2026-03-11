@@ -54,6 +54,35 @@ class CustomTransport(Transport):
         return super()._load_remote_data(url)
 
 
+def should_skip_fetch():
+    """Return True if we can skip the API call based on cached metadata."""
+
+    if not os.path.exists(METADATA_FILE):
+        return False
+
+    try:
+        with open(METADATA_FILE, 'r', encoding='utf-8') as f:
+            metadata = json.load(f)
+
+        if metadata.get('status') != 'success':
+            return False
+
+        if metadata.get('has_active_operation', True):
+            return False
+
+        last_update = datetime.fromisoformat(metadata['last_update'])
+        elapsed_minutes = (datetime.now() - last_update).total_seconds() / 60
+
+        if elapsed_minutes < 60:
+            print(f"⏭️  No active operation, last fetch {elapsed_minutes:.0f} min ago — skipping")
+            return True
+
+    except Exception:
+        pass
+
+    return False
+
+
 def fetch_planif_neige_data():
     """Fetch data from Planif-Neige API."""
 
@@ -95,15 +124,25 @@ def fetch_planif_neige_data():
         # Parse response
         data = parse_response(response)
 
+        # Sort for stable diffs
+        data['planifications'].sort(key=lambda p: (p.get('cote_rue_id') or 0))
+
         # Save data to JSON
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
+
+        # Detect active operation
+        has_active = any(
+            p.get('etat_deneig') != 10 or p.get('date_deb_planif')
+            for p in data.get('planifications', [])
+        )
 
         # Save metadata
         metadata = {
             "last_update": datetime.now().isoformat(),
             "from_date": from_date_str,
             "record_count": len(data.get('planifications', [])),
+            "has_active_operation": has_active,
             "status": "success"
         }
 
@@ -231,6 +270,9 @@ if __name__ == "__main__":
     if not API_TOKEN:
         print("❌ Error: PLANIF_NEIGE_TOKEN environment variable not set")
         exit(1)
+
+    if should_skip_fetch():
+        exit(0)
 
     success = fetch_planif_neige_data()
     exit(0 if success else 1)
