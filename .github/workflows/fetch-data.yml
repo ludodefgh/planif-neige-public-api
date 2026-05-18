@@ -1,9 +1,9 @@
 name: Fetch Planif-Neige Data
 
 on:
-  schedule:
-    # Toutes les 20 minutes (respecte le rate limit de 5 min de l'API)
-    - cron: '*/20 * * * *'
+  # Schedule désactivé hors-saison (service arrêté)
+  # schedule:
+  #   - cron: '*/20 * * * *'
 
   # Permettre l'exécution manuelle
   workflow_dispatch:
@@ -65,7 +65,7 @@ jobs:
   fetch-geobase:
     runs-on: ubuntu-latest
     # Exécuter seulement le dimanche à 3h (hebdomadaire)
-    if: github.event.schedule == '0 3 * * 0' || github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch'
 
     steps:
       - name: Checkout repository
